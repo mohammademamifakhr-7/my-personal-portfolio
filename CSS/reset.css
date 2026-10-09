@@ -1,0 +1,46 @@
+
+/* rest */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Code", sans-serif;
+    background-color: var(--bd-bg-color);
+    color: var(--bd-color);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* assets */
+
+img {
+    max-width: 100%;
+}
+
+button,
+textarea,
+input,
+select {
+    font-family: "Fira Code", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* font
+--------------------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "Fira Code";
+    src: url(../assets/font/fira_code/FiraCode-VariableFont_wght.ttf) format(truetype);
+}

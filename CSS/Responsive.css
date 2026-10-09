@@ -1,0 +1,412 @@
+/* ================================ Tablet ================================ */
+
+@media (min-width: 768px) {
+
+    /* break */
+
+    .mobile-break {
+        display: none;
+    }
+
+    /* Header */
+
+    .main-header {
+        padding: 25px 8%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .main-header .nav-list {
+        gap: 1rem;
+    }
+
+    .nav-list .nav-link {
+        font-size: 0.85rem;
+    }
+
+
+    /* Banner */
+
+    .banner-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 85%;
+        gap: 2rem;
+
+        margin: 4rem auto 6rem;
+    }
+
+    .banner-container .left-section {
+        width: 50%;
+        text-align: left;
+    }
+
+    .banner-container .right-section {
+        width: 50%;
+    }
+
+    .banner-title {
+        font-size: 1.7rem;
+    }
+
+    .banner-text {
+        font-size: 0.85rem;
+    }
+
+    .banner-img {
+        width: 80%;
+        max-width: 280px;
+    }
+
+    .banner-my-text {
+        width: 80%;
+    }
+
+
+    /* Slogan */
+
+    .slogan-container {
+        width: 85%;
+    }
+
+    .slogan-box {
+        width: auto;
+        padding: 1.5rem 2rem;
+    }
+
+
+    /* Projects */
+
+    .projects-container {
+        width: 85%;
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-title.title::after {
+        width: 180px;
+    }
+
+
+    /* Skills */
+
+    .skills-container {
+        width: 85%;
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .skills-title::after {
+        width: 180px;
+    }
+
+
+    /* About */
+
+    .aboute-container {
+        width: 85%;
+    }
+
+    .about-wrapper {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-section {
+        width: 50%;
+    }
+
+    .about-wrapper .left-section {
+        width: 50%;
+    }
+
+    .about-wrapper .right-section {
+        width: 50%;
+    }
+
+    .about-img {
+        width: 80%;
+    }
+
+    .about-title::after {
+        width: 200px;
+    }
+
+
+    /* Contact */
+
+    .contact-container {
+        width: 85%;
+    }
+
+    .contact-container .contact-wrapper {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contact-section {
+        width: 50%;
+    }
+
+    .contact-container .right-section {
+        width: 50%;
+    }
+
+    .contact-title::after {
+        width: 150px;
+    }
+
+    .message-box {
+
+        position: absolute;
+        right: 1px;
+        top: -5rem;
+        width: fit-content;
+    }
+
+    /* Footer */
+
+    .main-footer {
+        width: 85%;
+    }
+}
+
+
+/* ================================ Desktop ================================ */
+
+@media (min-width: 1024px) {
+
+    /* Header */
+
+    .main-header {
+        padding: 30px 10%;
+    }
+
+    .main-header .nav-list {
+        gap: 1.2rem;
+    }
+
+    .nav-list .nav-link {
+        font-size: 0.9rem;
+    }
+
+
+    /* Banner */
+
+    .banner-container {
+        width: 70%;
+        height: 75dvh;
+
+        margin-bottom: 4rem;
+    }
+
+    .banner-title {
+        font-size: 1.8rem;
+    }
+
+    .banner-text {
+        font-size: 1rem;
+        margin: 2rem 0;
+    }
+
+    .banner-link {
+        padding: 8px 10px;
+    }
+
+    .banner-img {
+        width: 120%;
+        max-width: 250px;
+    }
+
+    .banner-my-text {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .banner-shape {
+        width: auto;
+        right: -75px;
+    }
+
+
+    /* Slogan */
+
+    .slogan-container {
+        width: 70%;
+        margin-bottom: 6rem;
+    }
+
+    .slogan-box {
+        padding: 1.5rem 2rem;
+    }
+
+    .slogan-box p {
+        font-size: 1rem;
+    }
+
+    .quote {
+        width: 35px;
+    }
+
+    .left-quote {
+        top: -20px;
+        left: 10px;
+    }
+
+    .right-quote {
+        bottom: -10px;
+        right: 10px;
+    }
+
+
+    /* Projects */
+
+    .projects-container {
+        width: 70%;
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects-title.title::after {
+        width: 400px;
+    }
+
+    .projects-view-all {
+        font-size: 0.85rem;
+    }
+
+    .projects-tchnologies {
+        font-size: 1rem;
+    }
+
+    .projects-info-box {
+        padding: 1rem;
+    }
+
+    .projects-name {
+        font-size: 1.2rem;
+    }
+
+    .projects-text {
+        font-size: 0.9rem;
+    }
+
+
+    /* Skills */
+
+    .skills-container {
+        width: 70%;
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skills-title::after {
+        width: 350px;
+    }
+
+    .skills-box {
+        min-height: 120px;
+        max-height: 700px;
+    }
+
+    .box-header {
+        font-size: 1rem;
+    }
+
+    .box-content {
+        font-size: 0.9rem;
+    }
+
+
+    /* About */
+
+    .aboute-container {
+        width: 70%;
+    }
+
+    .about-title::after {
+        width: 400px;
+    }
+
+    .about-wrapper {
+        gap: 2rem;
+    }
+
+    .about-wrapper .right-section {
+        margin-top: -8rem;
+    }
+
+    .about-img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .about-dots-img {
+        width: auto;
+        top: 10rem;
+        right: 12rem;
+    }
+
+    .aboutme-text {
+        font-size: 0.9rem;
+    }
+
+
+    /* Contact */
+
+    .contact-container {
+        width: 70%;
+    }
+
+    .contact-title::after {
+        width: 200px;
+    }
+
+    .contact-description {
+        font-size: 0.9rem;
+    }
+
+    .message-header-title {
+        font-size: 1rem;
+    }
+
+    .social-link {
+        font-size: 0.9rem;
+    }
+
+    .message-box {
+
+        top: -7rem;
+    }
+
+    /* Footer */
+
+    .main-footer {
+        width: 70%;
+        margin-bottom: 1.7rem;
+    }
+
+    .main-footer p {
+        font-size: 0.9rem;
+    }
+
+    .main-footer .copy-right-text {
+        font-size: 0.8rem;
+    }
+}
+
+/* ================================ Desktop L ================================ */
+
+@media (min-width:1440) {}
